@@ -1,0 +1,29 @@
+4903
+Original Naive Bayes Algo accuracy percent: 82.56018790369936
+Most Informative Features
+                 depends = 1              electr : window =      7.3 : 1.0
+                    info = 1              electr : window =      7.2 : 1.0
+                   often = 2              electr : window =      7.2 : 1.0
+                     org = 3              electr : medica =      7.2 : 1.0
+                    rate = 7              electr : window =      6.3 : 1.0
+                 general = 2              medica : window =      6.1 : 1.0
+                    kind = 3              electr : window =      6.1 : 1.0
+                   order = 4              electr : medica =      5.6 : 1.0
+                 several = 2              electr : medica =      5.2 : 1.0
+                    inch = 2              electr : medica =      5.2 : 1.0
+                properly = 1              electr : window =      4.4 : 1.0
+                   fixed = 1              electr : window =      4.4 : 1.0
+                requires = 1              electr : window =      4.4 : 1.0
+                      ch = 1              electr : window =      4.4 : 1.0
+                function = 1              electr : window =      4.4 : 1.0
+MNB_classifier accuracy percent: 70.75748678802114
+BernoulliNB_classifier accuracy percent: 72.04932472108044
+LogisticRegression_classifier accuracy percent: 75.04403992953611
+LinearSVC_classifier accuracy percent: 72.6952436876101
+
+/home/administrator/anaconda3/lib/python3.6/site-packages/sklearn/linear_model/stochastic_gradient.py:128: FutureWarning: max_iter and tol parameters have been added in <class 'sklearn.linear_model.stochastic_gradient.SGDClassifier'> in 0.19. If both are left unset, they default to max_iter=5 and tol=None. If tol is not None, max_iter defaults to max_iter=1000. From 0.21, default max_iter will be 1000, and default tol will be 1e-3.
+  "and default tol will be 1e-3." % type(self), FutureWarning)
+
+SGDClassifier accuracy percent: 70.17028772753963
+voted_classifier accuracy percent: 76.57075748678803
+
